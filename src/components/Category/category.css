@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@100&display=swap");
+
+.cat_body {
+  height: 100vh;
+}
+
+.cat_movies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+}
+.cat_movie {
+  width: 345px;
+  margin: 0px;
+  background-color: black;
+  color: white;
+  margin: 15px;
+  overflow: auto;
+  -webkit-box-shadow: 1px 5px 15px rgb(0 0 0 / 50%);
+  box-shadow: 1px 5px 15px rgb(0 0 0 / 50%);
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.cat_movie:hover {
+  transform: scale(1.06);
+}
+.cat_img {
+  width: inherit;
+  margin: 0px;
+}
+.cat_title,
+.cat_vote {
+  margin: 5px;
+  font-size: inherit;
+}
+.cat_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star {
+  margin: 3px;
+  color: yellow;
+}
+
+.bars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

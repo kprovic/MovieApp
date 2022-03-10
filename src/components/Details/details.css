@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@100&display=swap");
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+.container_details {
+  width: 90%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.container_text_details {
+  margin: 20px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.img_details {
+  height: auto;
+  width: 450px;
+  margin: 20px;
+  max-height: 255px;
+}
+.title_details {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.sm_container_details {
+  display: flex;
+}
+.sm_item_details {
+  margin: 5px 12px 10px 0px;
+  border-right: white solid thin;
+  padding-right: 10px;
+}
+.exc {
+  border-right: none;
+}
+.overview_details {
+  margin: 15px 0px;
+}
+.recommendation_movies {
+  display: flex;
+  flex-direction: row;
+}
+.details_movie {
+  width: 250px;
+  background-color: black;
+  margin: 15px;
+  box-shadow: 1px 5px 15px rgb(0 0 0 / 50%);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.details_movie:hover {
+  transform: scale(1.06);
+}
+.details_img {
+  width: inherit;
+  margin: 0px;
+}
+.details_title {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+}
+.details_title p {
+  margin: 3px;
+}
+.rec_title {
+  font-size: 25px;
+}

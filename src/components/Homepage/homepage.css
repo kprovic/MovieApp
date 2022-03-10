@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@100&display=swap");
+
+.heading {
+  margin: 14px;
+  color: white;
+  font-family: "Raleway";
+  font-size: 23px;
+}
+.movies {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  width: 100vw;
+  height: 265px;
+}
+.movie {
+  background-color: black;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  margin: 2px 4px;
+  width: 375px;
+  height: 94%;
+  box-shadow: 1px 5px 15px rgb(0 0 0 / 50%);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.movie:hover {
+  transform: scale(1.06);
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+}
+.img {
+  width: inherit;
+}
+.toprated {
+  margin-top: 30px;
+}
+.star {
+  margin: 3px;
+  color: yellow;
+}
