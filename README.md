@@ -1,1 +1,1 @@
-Movie app
+Movie app built with React
